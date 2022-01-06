@@ -3,12 +3,15 @@ import numpy as np
 from PIL import ImageGrab
 
 
+
+threshold = 0.8
+picture_to_check = "controlpic.png"
+
+    
 def capture_image_and_different_image():
-
+    
     different_count = 0
-    threshold = 0.8
-    picture_to_check = "controlpic.png"
-
+    
     # screen capture
     img = ImageGrab.grab()
     img_np = np.array(img)
