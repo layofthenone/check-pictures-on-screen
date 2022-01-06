@@ -1,4 +1,4 @@
-# ***This code take screenshot and checking if the control image is included in the screenshot**
+# ***This code take screenshot and checking if the control image is included in the screenshot***
 
 ```
 pip install opencv-python
